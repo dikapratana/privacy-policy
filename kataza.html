@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy - Kataza</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        line-height: 1.5;
+        color: #333;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+      }
+      .toggle-btn {
+        cursor: pointer;
+        padding: 5px 15px;
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+      }
+      .hidden {
+        display: none;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      h2 {
+        font-size: 18px;
+        margin-top: 20px;
+      }
+      p,
+      li {
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1 id="title">Privacy Policy</h1>
+      <button id="toggleBtn" class="toggle-btn" onclick="toggleLang()">
+        Switch to Bahasa Indonesia
+      </button>
+    </div>
+
+    <div id="en-content">
+      <p>Last Updated: April 25, 2024</p>
+      <p>
+        Kataza built the Kataza app as a Free app. This SERVICE is provided by
+        Kataza at no cost and is intended for use as is.
+      </p>
+
+      <h2>1. Information Collection and Use</h2>
+      <p>
+        To provide a better experience and maintain app functionality, our
+        Service requires an active internet connection. Currently, your personal
+        learning data is stored locally on your device. However, this app uses
+        third-party services that may collect information used to identify you
+        (such as Advertising IDs for ads).
+      </p>
+      <p>
+        Future updates may include cloud synchronization, which will involve
+        storing encrypted data on secure external servers.
+      </p>
+      <p>Services used by the app:</p>
+      <ul>
+        <li>Google Play Services</li>
+        <li>AdMob (Advertising)</li>
+      </ul>
+
+      <h2>2. Log Data and Ads</h2>
+      <p>
+        This app displays advertisements. Third-party vendors, including Google,
+        use cookies to serve ads based on a user's prior visits to your website
+        or other websites. When errors occur, we may collect Log Data such as IP
+        address and device name to improve app stability.
+      </p>
+
+      <h2>3. Security</h2>
+      <p>
+        We value your trust in providing us your Personal Information, thus we
+        are striving to use commercially acceptable means of protecting it. But
+        remember that no method of transmission over the internet, or method of
+        electronic storage is 100% secure.
+      </p>
+
+      <h2>4. Children’s Privacy</h2>
+      <p>
+        These Services do not address anyone under the age of 13. We do not
+        knowingly collect personally identifiable information from children
+        under 13.
+      </p>
+
+      <h2>5. Contact Us</h2>
+      <p>
+        If you have any questions or suggestions about our Privacy Policy, do
+        not hesitate to contact us at support@kataza.app.
+      </p>
+    </div>
+
+    <div id="id-content" class="hidden">
+      <p>Terakhir Diperbarui: 25 April 2024</p>
+      <p>
+        Kataza membangun aplikasi Kataza sebagai aplikasi Gratis. LAYANAN ini
+        disediakan oleh Kataza tanpa biaya dan dimaksudkan untuk digunakan apa
+        adanya.
+      </p>
+
+      <h2>1. Pengumpulan dan Penggunaan Informasi</h2>
+      <p>
+        Untuk memberikan pengalaman yang lebih baik dan menjaga fungsionalitas,
+        Layanan kami memerlukan koneksi internet aktif. Saat ini, data
+        pembelajaran pribadi Anda disimpan secara lokal di perangkat Anda.
+        Namun, aplikasi ini menggunakan layanan pihak ketiga yang dapat
+        mengumpulkan informasi yang digunakan untuk mengidentifikasi Anda
+        (seperti ID Iklan untuk penayangan iklan).
+      </p>
+      <p>
+        Pembaruan di masa mendatang mungkin menyertakan sinkronisasi cloud, yang
+        akan melibatkan penyimpanan data terenkripsi pada server eksternal yang
+        aman.
+      </p>
+      <p>Layanan yang digunakan oleh aplikasi:</p>
+      <ul>
+        <li>Google Play Services</li>
+        <li>AdMob (Periklanan)</li>
+      </ul>
+
+      <h2>2. Data Log dan Iklan</h2>
+      <p>
+        Aplikasi ini menampilkan iklan. Vendor pihak ketiga, termasuk Google,
+        menggunakan cookie untuk menayangkan iklan berdasarkan kunjungan
+        pengguna sebelumnya ke aplikasi ini atau aplikasi lain. Jika terjadi
+        kesalahan, kami dapat mengumpulkan Data Log seperti alamat IP dan nama
+        perangkat untuk meningkatkan stabilitas aplikasi.
+      </p>
+
+      <h2>3. Keamanan</h2>
+      <p>
+        Kami menghargai kepercayaan Anda dalam memberikan Informasi Pribadi Anda
+        kepada kami, oleh karena itu kami berupaya menggunakan cara yang dapat
+        diterima secara komersial untuk melindunginya. Namun perlu diingat bahwa
+        tidak ada metode transmisi melalui internet yang 100% aman.
+      </p>
+
+      <h2>4. Privasi Anak-anak</h2>
+      <p>
+        Layanan ini tidak ditujukan kepada siapa pun yang berusia di bawah 13
+        tahun. Kami tidak secara sadar mengumpulkan informasi identitas pribadi
+        dari anak-anak di bawah usia 13 tahun.
+      </p>
+
+      <h2>5. Hubungi Kami</h2>
+      <p>
+        Jika Anda memiliki pertanyaan atau saran tentang Kebijakan Privasi kami,
+        jangan ragu untuk menghubungi kami di dpratana.studio@gmail.com
+      </p>
+    </div>
+
+    <script>
+      let isEn = true;
+      function toggleLang() {
+        isEn = !isEn;
+        document.getElementById("en-content").classList.toggle("hidden", !isEn);
+        document.getElementById("id-content").classList.toggle("hidden", isEn);
+        document.getElementById("title").innerText = isEn
+          ? "Privacy Policy"
+          : "Kebijakan Privasi";
+        document.getElementById("toggleBtn").innerText = isEn
+          ? "Switch to Bahasa Indonesia"
+          : "Switch to English";
+      }
+    </script>
+  </body>
+</html>
